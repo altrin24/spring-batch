@@ -27,15 +27,36 @@ This project efficiently processes **1 million records** from an Excel file and 
 jdbc:mysql://localhost:3306/your_db?rewriteBatchedStatements=true
 ```
 
+## **Database Table Schema**
+
+To store Excel data in MySQL, use the following table structure:
+
+```sql
+CREATE TABLE batch.excel_data (
+    col1 VARCHAR(255),
+    col2 VARCHAR(255),
+    col3 VARCHAR(255),
+    col4 VARCHAR(255),
+    col5 VARCHAR(255),
+    col6 VARCHAR(255),
+    col7 VARCHAR(255),
+    col8 VARCHAR(255),
+    col9 VARCHAR(255),
+    col10 VARCHAR(255),
+    col11 VARCHAR(255),
+    col12 VARCHAR(255)
+);
+```
+
 ## **How to Run the Project**
 
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/altrin24/spring-batch.git]
+   git clone https://github.com/your-username/your-repo.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd spring-batch
+   cd your-repo
    ```
 3. Build and run the application:
    ```sh
