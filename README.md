@@ -31,11 +31,11 @@ jdbc:mysql://localhost:3306/your_db?rewriteBatchedStatements=true
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone [https://github.com/altrin24/spring-batch.git]
    ```
 2. Navigate to the project directory:
    ```sh
-   cd your-repo
+   cd spring-batch
    ```
 3. Build and run the application:
    ```sh
