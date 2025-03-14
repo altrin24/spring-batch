@@ -61,6 +61,7 @@ public class BatchJobConfig {
         return new CsvItemWriter(dataSource);
     }
 
+    @Bean
     public FlatFileItemReader csvItemReader(){
 
         return new CsvItemReader("/Users/jerry/Downloads/customers-2000000.csv");

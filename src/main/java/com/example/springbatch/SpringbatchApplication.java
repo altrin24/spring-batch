@@ -8,6 +8,8 @@ public class SpringbatchApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbatchApplication.class, args);
+		System.exit(0);
+
 	}
 
 }
